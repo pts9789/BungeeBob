@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./lib/canvas.js",
+  entry: "./lib/gameView.js",
   output: {
     path: __dirname,
     filename: "./lib/bungeeBob.js"
