@@ -5,6 +5,33 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: rgb(179,220,237); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 );
+}
+
+.title-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.title{
+  display: flex;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.name{
+  display: flex;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
 canvas {
@@ -18,14 +45,20 @@ canvas {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  width: 700px;
+  justify-content: center;
+  width: 900px;
 }
 
 .information-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: space-evenly;
+  width: 900px;
+  margin: 0;
+}
+
+.contact-info{
+  height: 30px;
+  margin: 10px;
 }
